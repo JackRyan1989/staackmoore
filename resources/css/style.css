@@ -1,0 +1,12 @@
+#aboutUsRow {
+    background-image: url("../images/bg_bedroomBIG.webp");
+    background-size: 100%;
+}
+
+#aboutUsHeader {
+    font-size: 3rem;
+}
+
+#aboutUsText {
+    font-size: 2rem;
+}

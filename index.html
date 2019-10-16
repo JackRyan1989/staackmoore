@@ -8,10 +8,48 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="resources/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="resources/javascript/app.js"></script>
     <title>Staack-Moore Woodworking</title>
 </head>
 
 <body>
+    <!--Put navbar at top of screen-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white justify-content-between">
+        <a class="navbar-brand" href="#"></a>
+        <img src="resources/images/logoSM_WW.webp" width="200" alt="Staack-Moore Woodworking">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link mx-2" href="#">About Us</a>
+                <a class="nav-item nav-link mx-2" href="#">What We Do</a>
+                <a class="nav-item nav-link mx-2" href="#">Contact Us</a>
+                <a class="nav-item nav-link mx-2" href="#">Who We Work With</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <!--Rows will hold the specific content going down the page-->
+        <div class="row border border-primary m-2 rounded" id="aboutUsRow">
+            <!--Contains text about location, how long we've been around etc. -->
+            <!--Put in background image of shop, low opacity with another color-->
+            <div class="col-lg-12 col-md-10 col-12-sm mx-auto">
+                <h3 class= "m-2 text-center py-5" id= "aboutUsHeader">Craft Woodworking Right Here in Philadelphia</h3>
+                <span class = "m-2 text-center" id="aboutUsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum qui ab illo!
+                    Dolore tenetur, nesciunt est magnam at quibusdam nam. Sed hic a eius vero officiis labore voluptate
+                    corrupti reiciendis.</span>
+            </div>
+        </div>
+        <div class="row border border-primary" id="ourWork">
+            <!--Contains  4 sections dealing with areas of work-->
+            <!--On click sections open to reveal more info -->
+            <!--On hover background images zoom slightly -->
+        </div>
+        <div class="row border border-primary" id="collaborators">
+            <!--Section with links and descriptions of collaborators-->
+        </div>
+    </div>
 
 </body>
 
