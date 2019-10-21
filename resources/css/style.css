@@ -1,5 +1,18 @@
+.navbar {
+    transition-property: opacity;
+    transition-duration: 250ms;
+}
+
+.navbar-hide {
+    opacity: 0;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 0%;
+}
+
 #aboutUsRow {
-    background-image: url("../images/bg_bedroomBIG.webp");
     background-size: 100%;
 }
 
@@ -10,3 +23,11 @@
 #aboutUsText {
     font-size: 2rem;
 }
+
+#aboutUsDiv {
+    color: whitesmoke;
+    position: absolute;
+    top: 25%;
+}
+
+

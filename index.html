@@ -19,9 +19,9 @@
 
 <body>
     <!--Put navbar at top of screen-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" id = "navBar">
         <a class="navbar-brand" href="#"></a>
-        <img src="resources/images/logoSM_WW.webp" width="200" alt="Staack-Moore Woodworking">
+        <img id = "brandLogo" src="resources/images/logoSM_WW.webp" width="200" alt="Staack-Moore Woodworking">
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
@@ -31,17 +31,23 @@
             </div>
         </div>
     </nav>
-    <div class="container fullscreen">
+    <div class="container">
         <!--Rows will hold the specific content going down the page-->
-        <div class="row border border-primary m-2 rounded" id="aboutUsRow">
+        <div class="row m-2 rounded fullscreen" id="aboutUsRow">
             <!--Contains text about location, how long we've been around etc. -->
             <!--Put in background image of shop, low opacity with another color-->
-            <div class="col-lg-12 col-md-10 col-12-sm mx-auto">
-                <h3 class="m-2 text-center py-5" id="aboutUsHeader">Craft Woodworking Right Here in Philadelphia</h3>
-                <span class="m-2 text-center" id="aboutUsText">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Laborum qui ab illo!
-                    Dolore tenetur, nesciunt est magnam at quibusdam nam. Sed hic a eius vero officiis labore voluptate
-                    corrupti reiciendis.</span>
+            <div class="carousel-inner" class="carousel-slide">
+                <img class="d-block w-100" src="resources/images/bg_bedroomBIG.webp">
+                <div class="d-none d-sm-block text-center" id = "aboutUsDiv">
+                    <h3 class="m-2" id="aboutUsHeader">Craft Woodworking Right Here in Philadelphia
+                    </h3>
+                    <span class="m-2" id="aboutUsText">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                        Laborum qui ab illo!
+                        Dolore tenetur, nesciunt est magnam at quibusdam nam. Sed hic a eius vero officiis labore
+                        voluptate
+                        corrupti reiciendis.</span>
+                </div>
             </div>
         </div>
         <div class="row border border-primary m-2 rounded" id="ourWork">
