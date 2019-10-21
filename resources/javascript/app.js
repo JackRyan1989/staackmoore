@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+    //Change NavBar on scroll:
     $(window).scroll(function(e) {
         var scroll = $(window).scrollTop();
         if (scroll >= 10) {
@@ -21,6 +23,8 @@ $(document).ready(function(){
                 duration: 250
             }) ;
         }
+
+        //
     
     });
 

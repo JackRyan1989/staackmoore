@@ -1,6 +1,7 @@
 .navbar {
     transition-property: opacity;
     transition-duration: 250ms;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .navbar-hide {
@@ -12,20 +13,32 @@
     left: 0%;
 }
 
+.fa-facebook-square {
+    color: blue;
+}
+
+.fa-instagram {
+    color: salmon;
+}
+
 #aboutUsRow {
     background-size: 100%;
 }
 
 #aboutUsHeader {
     font-size: 3rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: black;
 }
 
 #aboutUsText {
     font-size: 2rem;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: grey;
 }
 
 #aboutUsDiv {
-    color: whitesmoke;
     position: absolute;
     top: 25%;
 }
