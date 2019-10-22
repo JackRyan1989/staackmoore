@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
     //Change NavBar on scroll:
     $(window).scroll(function(e) {
         let scroll = $(window).scrollTop();
@@ -34,7 +33,67 @@ $(document).ready(function(){
         }  else {
             $("#ourWork").css("height", 50);
         }
-    
+        //Show divs on text:
+        $("#liturgicalTitle").on("click", function(){
+            anime({
+                targets: "#churchDiv",
+                height: 600,
+                easing: 'linear',
+                duration: 100
+            });
+            $("#customText").css('visibility', 'hidden');
+            $("#commText").css('visibility', 'hidden');
+            $("#resText").css('visibility', 'hidden'); 
+            $("#liturgicalText").css('visibility', 'visible');
+            $("#resDiv").css('height', 200);
+            $("#commDiv").css('height', 200);
+            $("#custManDiv").css('height', 200);
+        });
+        $("#residentialTitle").on("click", function(){
+            anime({
+                targets: "#resDiv",
+                height: 600,
+                easing: 'linear',
+                duration: 100
+            });
+            $("#customText").css('visibility', 'hidden');
+            $("#commText").css('visibility', 'hidden');
+            $("#resText").css('visibility', 'visible'); 
+            $("#liturgicalText").css('visibility', 'hidden');
+            $("#churchDiv").css('height', 150);
+            $("#commDiv").css('height', 150);
+            $("#custManDiv").css('height', 150);
+        });
+        $("#commercialTitle").on("click", function(){
+            anime({
+                targets: "#commDiv",
+                height: 600,
+                easing: 'linear',
+                duration: 100
+            });
+            $("#customText").css('visibility', 'hidden');
+            $("#commText").css('visibility', 'visible');
+            $("#resText").css('visibility', 'hidden'); 
+            $("#liturgicalText").css('visibility', 'hidden');
+            $("#churchDiv").css('height', 150);
+            $("#resDiv").css('height', 150);
+            $("#custManDiv").css('height', 150);
+        });
+        $("#customTitle").on("click", function(){
+            anime({
+                targets: "#custManDiv",
+                height: 600,
+                easing: 'linear',
+                duration: 100
+            });
+            $("#customText").css('visibility', 'visible');
+            $("#commText").css('visibility', 'hidden');
+            $("#resText").css('visibility', 'hidden'); 
+            $("#liturgicalText").css('visibility', 'hidden');
+            $("#churchDiv").css('height', 150);
+            $("#resDiv").css('height', 150);
+            $("#commDiv").css('height', 150);
+        });
     });
 
 

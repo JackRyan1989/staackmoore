@@ -81,6 +81,7 @@ h3 {
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+background-color: wheat;
 }
 
 #liturgicalTitle,
@@ -88,5 +89,35 @@ background-position: center;
 #commercialTitle,
 #customTitle {
     margin-top: 5%;
+    color: black;
 }
 
+#liturgicalTitle:hover,
+#residentialTitle:hover,
+#commercialTitle:hover,
+#customTitle:hover {
+    color: blue;
+}
+
+#churchImgDiv, 
+#resImgDiv, 
+#commImgDiv,
+#custManImgDiv { 
+    width: 100%;
+    height: 100%;
+}
+
+#churchImgDiv:hover, 
+#resImgDiv:hover, 
+#commImgDiv:hover,
+#custManImgDiv:hover { 
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+#liturgicalText,
+#resText,
+#commText,
+#customText {
+    visibility: hidden;
+}
