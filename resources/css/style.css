@@ -1,3 +1,4 @@
+
 .navbar {
     transition-property: opacity;
     transition-duration: 250ms;
@@ -14,22 +15,26 @@
 }
 
 .fa-facebook-square {
-    color: blue;
+    color: #3b5998;
 }
 
 .fa-instagram {
     color: salmon;
 }
 
-#aboutUsRow {
-    background-size: 100%;
-}
-
 #aboutUsHeader {
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     color: black;
+}
+
+h1, 
+h2,
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    opacity: 1.0 !important;
 }
 
 #aboutUsText {
@@ -40,7 +45,48 @@
 
 #aboutUsDiv {
     position: absolute;
-    top: 25%;
+    top: 10%;
 }
 
+#carousel {
+    background-color: wheat;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+
+#mainImg {
+    opacity: .75;
+}
+
+#churchDiv {
+    background-image: url('../images/churchIMG.webp');
+}
+
+#resDiv {
+    background-image: url("../images/residential_IMG.webp");
+}
+#commDiv {
+    background-image: url("../images/commercialHolder.webp");
+}
+#custManDiv {
+    background-image: url("../images/customManufacture.webp");
+}
+
+#churchDiv, 
+#resDiv, 
+#commDiv,
+#custManDiv
+{
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+#liturgicalTitle,
+#residentialTitle,
+#commercialTitle,
+#customTitle {
+    margin-top: 5%;
+}
 

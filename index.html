@@ -23,30 +23,32 @@
 
 <body>
     <!--Put navbar at top of screen-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" id = "navBar">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" id="navBar">
         <a class="navbar-brand" href="#"></a>
-        <img id = "brandLogo" src="resources/images/logoSM_WW.webp" width="200" alt="Staack-Moore Woodworking">
+        <img id="brandLogo" src="resources/images/logoSM_WW.webp" width="200" alt="Staack-Moore Woodworking">
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link mx-2" href="#">What We Do</a>
-                <a class="nav-item nav-link mx-2" href="#">Who We Work With</a>
-                <a class="nav-item nav-link mx-2" href="https://www.facebook.com/staackmoore/"><i class="fa fa-facebook-square fa-lg"></i></a>
+                <a class="nav-item nav-link mx-2" href="#ourWork">What We Do</a>
+                <a class="nav-item nav-link mx-2" href="#collaborators">Who We Work With</a>
+                <a class="nav-item nav-link mx-2" href="https://www.facebook.com/staackmoore/"><i
+                        class="fa fa-facebook-square fa-lg"></i></a>
                 <a class="nav-item nav-link mx-2" href="#"><i class="fa fa-instagram fa-lg"></i></a>
             </div>
         </div>
     </nav>
-    <div class="container">
+
+    <div id="wholeThing">
         <!--Rows will hold the specific content going down the page-->
-        <div class="row m-2" id="aboutUsRow">
+        <div class="row" id="aboutUsRow">
             <!--Contains text about location, how long we've been around etc. -->
             <!--Put in background image of shop, low opacity with another color-->
-            <div class="carousel-inner rounded" id="carousel-slide">
-                <img class="d-block w-100" src="resources/images/bg_bedroomBIG.webp">
-                <div class="d-none d-sm-block text-center" id = "aboutUsDiv">
-                    <h3 class="m-2" id="aboutUsHeader">Craft Woodworking Right Here in Philadelphia
+            <div class="carousel-inner rounded" id="carousel">
+                <img id="mainImg" class="d-block w-100" src="resources/images/bg_bedroomBIG.webp">
+                <div class="d-none d-sm-block text-center" id="aboutUsDiv">
+                    <h3 class="m-2" id="aboutUsHeader">Craft Woodworking <br> Right Here in Philadelphia
                     </h3>
-                    <span class="m-2" id="aboutUsText">Lorem ipsum dolor sit amet consectetur adipisicing
+                    <span class="m-2 p-3" id="aboutUsText">Lorem ipsum dolor sit amet consectetur adipisicing
                         elit.
                         Laborum qui ab illo!
                         Dolore tenetur, nesciunt est magnam at quibusdam nam. Sed hic a eius vero officiis labore
@@ -55,21 +57,22 @@
                 </div>
             </div>
         </div>
-        <div class="row border border-primary m-2 rounded" id="ourWork">
+        <div class="row m-1 rounded text-center" id="ourWork">
             <!--Contains  4 sections dealing with areas of work-->
             <!--On click sections open to reveal more info -->
             <!--On hover background images zoom slightly -->
-            <div class="row m-2">
-                <div class="col-lg-12 col-md-10 col-12-sm mx-auto">Liturgical</div>
+            <h1 class= "mx-4" id="ourWorkTitle">What We Make</h1>
+            <div class="col-lg-12 col-md-10 col-12-sm" id="churchDiv">
+                <h2 id="liturgicalTitle">Liturgical</h2>
             </div>
-            <div class="row m-2">
-                <div class="col-lg-12 col-md-10 col-12-sm mx-auto">Residental</div>
+            <div class="col-lg-12 col-md-10 col-12-sm" id="resDiv">
+                <h2 id="residentialTitle">Residential</h2>
             </div>
-            <div class="row m-2">
-                <div class="col-lg-12 col-md-10 col-12-sm mx-auto">Commercial</div>
+            <div class="col-lg-12 col-md-10 col-12-sm" id="commDiv">
+                <h2 id="commercialTitle">Commercial</h2>
             </div>
-            <div class="row m-2">
-                <div class="col-lg-12 col-md-10 col-12-sm mx-auto">Custom Manufacturing</div>
+            <div class="col-lg-12 col-md-10 col-12-sm" id="custManDiv">
+                <h2 id="customTitle">Custom Manufacturing</h2>
             </div>
         </div>
         <div class="row border border-primary m-2 rounded" id="collaborators">
