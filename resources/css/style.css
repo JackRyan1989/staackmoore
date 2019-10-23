@@ -126,11 +126,20 @@ background-color: wheat;
 
 #collaborators {
     position: relative;
-    bottom: -50px;
 }
 
 #formHolder {
     position: relative;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#sticky-footer {
+    color: grey;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.button {
+    border-style: none;
 }
 
 

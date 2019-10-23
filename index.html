@@ -62,7 +62,7 @@
             <!--Contains  4 sections dealing with areas of work-->
             <!--On click sections open to reveal more info -->
             <!--On hover background images zoom slightly -->
-            <h1 class="mx-4" id="ourWorkTitle">What We Make</h1>
+            <h1 class="m-4" id="ourWorkTitle">What We Make</h1>
             <div class="col-lg-12 col-md-10 col-12-sm" id="churchDiv">
                 <div id="churchImgDiv">
                     <h2 id="liturgicalTitle">Liturgical</h2>
@@ -102,36 +102,56 @@
         </div>
         <div class="row text-center m-1 rounded" id="collaborators">
             <!--Section with links and descriptions of collaborators-->
-            <h1 class="mx-4" id="ourCollabsTitle">Our Collaborators</h1>
+            <h1 class="m-4" id="ourCollabsTitle">Our Collaborators</h1>
             <div class="col-lg-12 col-md-10 col-12-sm mx-auto">
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, commodi distinctio excepturi
                     nesciunt eveniet optio rerum officia, aliquam voluptate voluptatum sit illo recusandae iure unde
                     odio ipsam repellat beatae quo.</span>
             </div>
         </div>
-        <div class = "mx-4" id="formHolder">
+        <div class="m-4" id="formHolder">
             <h1 id="ourWorkTitle">Contact Us</h1>
             <form>
                 <div class="form-group row m-2">
-                    <label for="nameInput" class="col-lg-2 col-sm-2">Name</label>
+                    <div class="col-lg-2 col-sm-1"></div>
                     <div class="col-lg-8 col-sm-10">
-                        <input type="text" class="form-control" id="nameInput">
+                        <input type="text" class="form-control" id="nameInput" placeholder="Name">
                     </div>
+                    <div class="col-lg-2 col-sm-1"></div>
                 </div>
                 <div class="form-group row m-2">
-                    <label for="emailInput" class="col-lg-2 col-sm-2">Email address</label>
+                    <div class="col-lg-2 col-sm-1"></div>
                     <div class="col-lg-8 col-sm-10">
-                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="emailInput" placeholder="Email Address">
                     </div>
+                    <div class="col-lg-2 col-sm-1"></div>
                 </div>
                 <div class="form-group row m-2">
-                    <label for="messageInput" class="col-lg-2 col-sm-2">Send us a message!</label>
+                    <div class="col-lg-2 col-sm-1"></div>
                     <div class="col-lg-8 col-sm-10">
-                        <textarea class="form-control" id="messageInput" rows="5"></textarea>
+                        <textarea class="form-control" id="messageInput" rows="5"
+                            placeholder="Send us a message!"></textarea>
+                        <button class="my-2 submit rounded bg-primary text-white" id="messageSubmit">Submit</button>
                     </div>
+                    <div class="col-lg-2 col-sm-1"></div>
                 </div>
-            </form>
         </div>
+        </form>
+    </div>
+
+    <footer id="sticky-footer" class="py-4 bg-white">
+        <div class="container text-center">
+            <address>2810 E Victoria Street,<br>
+                Philadelphia, PA 19134 <br>
+                <a id="footerFb" href="https://www.facebook.com/staackmoore/"><i
+                        class="fa fa-facebook-square fa-sm"></i></a>
+                <a id="footerIg" href="#"><i class="fa fa-instagram fa-sm"></i></a>
+            </address>
+            Copyright &copy; 2019
+        </div>
+    </footer>
+
+
     </div>
 
 </body>

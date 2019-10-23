@@ -2,7 +2,6 @@ $(document).ready(function(){
     //Change NavBar on scroll:
     $(window).scroll(function(e) {
         let scroll = $(window).scrollTop();
-        console.log(scroll);
         if (scroll >= 10) {
             $('#navBar').addClass("navbar-hide");
             $("#navBar").removeClass('navbar-expand-lg');
@@ -23,16 +22,7 @@ $(document).ready(function(){
                 duration: 250
             }) ;
         } 
-        if (scroll >= 500) {
-            anime({
-                targets: "#ourWork",
-                height: 650,
-                easing: 'linear',
-                duration: 100
-            }) ;
-        }  else {
-            $("#ourWork").css("height", 50);
-        }
+    });
         //Show divs on text:
         $("#liturgicalTitle").on("click", function(){
             anime({
@@ -94,7 +84,6 @@ $(document).ready(function(){
             $("#resDiv").css('height', 150);
             $("#commDiv").css('height', 150);
         });
-    });
 
 
 
