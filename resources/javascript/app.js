@@ -85,6 +85,11 @@ $(document).ready(function(){
             $("#commDiv").css('height', 150);
         });
 
+        //Prevent default behavior of submit button:
+        $("#messageSubmit").on('click', function(event){
+            event.preventDefault();
+        });
+
 
 
 
