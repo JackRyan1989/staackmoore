@@ -31,6 +31,7 @@
             <div class="navbar-nav">
                 <a class="nav-item nav-link mx-2" href="#ourWork">What We Do</a>
                 <a class="nav-item nav-link mx-2" href="#collaborators">Who We Work With</a>
+                <a class="nav-item nav-link mx-2" href="#formHolder">Contact Us</a>
                 <a class="nav-item nav-link mx-2" href="https://www.facebook.com/staackmoore/"><i
                         class="fa fa-facebook-square fa-lg"></i></a>
                 <a class="nav-item nav-link mx-2" href="#"><i class="fa fa-instagram fa-lg"></i></a>
@@ -57,7 +58,7 @@
                 </div>
             </div>
         </div>
-        <div class="row m-1 rounded text-center" id="ourWork">
+        <div class="row rounded text-center" id="ourWork">
             <!--Contains  4 sections dealing with areas of work-->
             <!--On click sections open to reveal more info -->
             <!--On hover background images zoom slightly -->
@@ -65,7 +66,8 @@
             <div class="col-lg-12 col-md-10 col-12-sm" id="churchDiv">
                 <div id="churchImgDiv">
                     <h2 id="liturgicalTitle">Liturgical</h2>
-                    <span id="liturgicalText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+                    <span class="workText" id="liturgicalText">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Labore
                         repudiandae culpa impedit adipisci, sapiente magnam suscipit fugit at nihil incidunt minus,
                         exercitationem nemo laborum facilis? Et sint nihil quis explicabo?</span>
                 </div>
@@ -73,7 +75,8 @@
             <div class="col-lg-12 col-md-10 col-12-sm" id="resDiv">
                 <div id="resImgDiv">
                     <h2 id="residentialTitle">Residential</h2>
-                    <span id="resText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi aperiam quod,
+                    <span class="workText" id="resText">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Commodi aperiam quod,
                         voluptas mollitia dolore similique numquam rerum reiciendis culpa aliquam deserunt, officiis
                         nostrum maxime quis iste nesciunt? Maxime, numquam cupiditate!</span>
                 </div>
@@ -81,7 +84,8 @@
             <div class="col-lg-12 col-md-10 col-12-sm" id="commDiv">
                 <div id="commImgDiv">
                     <h2 id="commercialTitle">Commercial</h2>
-                    <span id="commText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, temporibus
+                    <span class="workText" id="commText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                        temporibus
                         ipsam. Dicta at, mollitia soluta necessitatibus libero quaerat minus vero voluptatum amet, saepe
                         atque tempora obcaecati quisquam corporis asperiores harum?</span>
                 </div>
@@ -89,15 +93,44 @@
             <div class="col-lg-12 col-md-10 col-12-sm" id="custManDiv">
                 <div id="custManImgDiv">
                     <h2 id="customTitle">Custom Manufacturing</h2>
-                    <span id="customText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, temporibus
+                    <span class="workText" id="customText">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Culpa, temporibus
                         ipsam. Dicta at, mollitia soluta necessitatibus libero quaerat minus vero voluptatum amet, saepe
                         atque tempora obcaecati quisquam corporis asperiores harum?</span>
                 </div>
             </div>
         </div>
-        <div class="row border border-primary m-2 rounded" id="collaborators">
+        <div class="row text-center m-1 rounded" id="collaborators">
             <!--Section with links and descriptions of collaborators-->
-            <div class="col-lg-12 col-md-10 col-12-sm mx-auto">People we like working with:</div>
+            <h1 class="mx-4" id="ourCollabsTitle">Our Collaborators</h1>
+            <div class="col-lg-12 col-md-10 col-12-sm mx-auto">
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, commodi distinctio excepturi
+                    nesciunt eveniet optio rerum officia, aliquam voluptate voluptatum sit illo recusandae iure unde
+                    odio ipsam repellat beatae quo.</span>
+            </div>
+        </div>
+        <div class = "mx-4" id="formHolder">
+            <h1 id="ourWorkTitle">Contact Us</h1>
+            <form>
+                <div class="form-group row m-2">
+                    <label for="nameInput" class="col-lg-2 col-sm-2">Name</label>
+                    <div class="col-lg-8 col-sm-10">
+                        <input type="text" class="form-control" id="nameInput">
+                    </div>
+                </div>
+                <div class="form-group row m-2">
+                    <label for="emailInput" class="col-lg-2 col-sm-2">Email address</label>
+                    <div class="col-lg-8 col-sm-10">
+                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                    </div>
+                </div>
+                <div class="form-group row m-2">
+                    <label for="messageInput" class="col-lg-2 col-sm-2">Send us a message!</label>
+                    <div class="col-lg-8 col-sm-10">
+                        <textarea class="form-control" id="messageInput" rows="5"></textarea>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 

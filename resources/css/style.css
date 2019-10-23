@@ -1,4 +1,6 @@
-
+#wholeThing {
+    position: relative;
+}
 .navbar {
     transition-property: opacity;
     transition-duration: 250ms;
@@ -121,3 +123,14 @@ background-color: wheat;
 #customText {
     visibility: hidden;
 }
+
+#collaborators {
+    position: relative;
+    bottom: -50px;
+}
+
+#formHolder {
+    position: relative;
+}
+
+
